@@ -1,6 +1,6 @@
 from flask import Flask,render_template,request
 import cv2
-from tensorflow.keras.models import model_from_json
+from keras.models import model_from_json
 import numpy as np
 
 with open("web (2).json","r") as file:
